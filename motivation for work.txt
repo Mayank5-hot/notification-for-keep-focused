@@ -1,0 +1,9 @@
+import time
+from plyer import notification
+
+if __name__=="__main__":
+    notification.notify(
+        title = "One Step at a Time",
+        message = "Focused on your work and keep the tasked in the priority order, which will lead you as a successful person.",
+        app_icon ="C:\\Users\\surbhi\\Desktop\\Project for CV\\water\\icon.ico",
+        timeout = 5
